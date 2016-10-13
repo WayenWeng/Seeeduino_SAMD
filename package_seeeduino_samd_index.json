@@ -1,0 +1,53 @@
+{
+  "packages": [
+    {
+      "name": "Seeeduino SAMD",
+      "maintainer": "Seeed Studio",
+      "websiteURL": "http://www.seeedstudio.com/",
+      "email": "",
+      "help": {
+        "online": "http://www.seeedstudio.com/wiki/Main_Page"
+      },
+      "platforms": [
+        {
+          "name": "Seeeduino SAMD",
+          "architecture": "samd",
+          "version": "1.0.0",
+          "category": "Arduino",
+          "url": "https://raw.githubusercontent.com/WayenWeng/Seeeduino_SAMD/master/Seeeduino_SAMD_v1.0.0.tar.bz2",
+          "archiveFileName": "Seeeduino_SAMD_v1.0.0.tar.bz2",
+          "checksum": "SHA-256:6bc3d64aa52686712dbb2e719851678f88b07276d99feebd4374e0e059e5f985",
+          "size": "395283",
+          "boards": [
+            {"name": "Seeeduino Zero"},
+            {"name": "Seeeduino LoRaWAN"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "arm-none-eabi-gcc",
+              "version": "4.8.3-2014q1"
+            },
+            {
+              "packager": "arduino",
+              "name": "bossac",
+              "version": "1.6.1-arduino"
+            },
+            {
+              "packager": "arduino",
+              "name": "openocd",
+              "version": "0.9.0-arduino"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS",
+              "version": "4.0.0-atmel"
+            }
+          ]
+        }
+      ],
+      "tools": [
+      ]
+    }
+  ]
+}
