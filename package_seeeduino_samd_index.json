@@ -16,8 +16,8 @@
           "category": "Arduino",
           "url": "https://raw.githubusercontent.com/WayenWeng/Seeeduino_SAMD/master/Seeeduino_SAMD_v1.0.0.tar.bz2",
           "archiveFileName": "Seeeduino_SAMD_v1.0.0.tar.bz2",
-          "checksum": "SHA-256:6bc3d64aa52686712dbb2e719851678f88b07276d99feebd4374e0e059e5f985",
-          "size": "395283",
+          "checksum": "SHA-256:9a6437b1bc06b07bf2f1d3976a961e8b0c61ab3e1cfb1392c60d18e1bb855c24",
+          "size": "2339731",
           "boards": [
             {"name": "Seeeduino Zero"},
             {"name": "Seeeduino LoRaWAN"}
